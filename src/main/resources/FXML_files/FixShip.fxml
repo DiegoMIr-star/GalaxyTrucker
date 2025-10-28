@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.Controllers.FixController">
+
+    <center>
+        <StackPane>
+            <ImageView fx:id="backgroundImage" fitHeight="679.0" fitWidth="937.0" pickOnBounds="true" />
+
+            <GridPane fx:id="grid" alignment="CENTER" gridLinesVisible="true" hgap="2" vgap="2">
+                <padding>
+                    <Insets bottom="10" left="10" right="10" top="10" />
+                </padding>
+            </GridPane>
+        </StackPane>
+    </center>
+
+    <right>
+        <VBox alignment="CENTER" spacing="20">
+            <padding>
+                <Insets bottom="20" left="20" right="20" top="20" />
+            </padding>
+            <Label fx:id="text" prefHeight="324.0" prefWidth="167.0" style="-fx-font-size: 15; -fx-font-weight: bold;" text="Just fix your ship!" textAlignment="RIGHT">
+            <font>
+               <Font size="8.0" />
+            </font></Label>
+        </VBox>
+    </right>
+</BorderPane>

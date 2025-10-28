@@ -1,0 +1,621 @@
+{
+  "cards": [
+  {
+    "type": "Slavers",
+    "level": 1,
+    "fire_power": 6,
+    "days_loss": 1,
+    "crew_loss": 3,
+    "credits_gained": 5,
+    "image": "GT-cards_I_IT_01.jpg"
+  },
+  {
+    "type": "Smugglers",
+    "stocks": {
+      "red_stocks": 0,
+      "yellow_stocks": 1,
+      "green_stocks": 1,
+      "blue_stocks": 1
+    },
+    "level": 1,
+    "fire_power": 4,
+    "days_loss": 1,
+    "penalty_stocks": 2,
+    "image": "GT-cards_I_IT_012.jpg"
+  },
+  {
+    "type": "Pirates",
+    "level": 1,
+    "fire_power": 5,
+    "days_loss": 1,
+    "credits_gained": 4,
+    "meteors": [
+      {
+        "orientation": "SOUTH",
+        "kind": "LIGHT_SHOT"
+      },
+      {
+        "orientation": "SOUTH",
+        "kind": "HEAVY_SHOT"
+      },
+      {
+        "orientation": "SOUTH",
+        "kind": "LIGHT_SHOT"
+      }
+    ],
+    "image": "GT-cards_I_IT_013.jpg"
+  },
+  {
+    "type": "Stardust",
+    "level": 1,
+    "image": "GT-cards_I_IT_014.jpg"
+  },
+  {
+    "type": "Open_Space",
+    "level": 1,
+    "image": "GT-cards_I_IT_015.jpg"
+  },
+  {
+    "type": "Open_Space",
+    "level": 1,
+    "image": "GT-cards_I_IT_016.jpg"
+  },
+  {
+    "type": "Open_Space",
+    "level": 1,
+    "image": "GT-cards_I_IT_017.jpg"
+  },
+  {
+    "type": "Open_Space",
+    "level": 1,
+    "image": "GT-cards_I_IT_018.jpg"
+  },
+  {
+    "type": "Meteor_Swarm",
+    "level": 1,
+    "meteorites": [
+      {
+        "orientation": "SOUTH",
+        "kind": "BIG_ASTEROID"
+      },
+      {
+        "orientation": "EAST",
+        "kind": "SMALL_ASTEROID"
+      },
+      {
+        "orientation": "WEST",
+        "kind": "SMALL_ASTEROID"
+      }
+    ],
+    "image": "GT-cards_I_IT_019.jpg"
+  },
+  {
+    "type": "Meteor_Swarm",
+    "level": 1,
+    "meteorites": [
+      {
+        "orientation": "SOUTH",
+        "kind": "SMALL_ASTEROID"
+      },
+      {
+        "orientation": "SOUTH",
+        "kind": "SMALL_ASTEROID"
+      },
+      {
+        "orientation": "EAST",
+        "kind": "SMALL_ASTEROID"
+      },
+      {
+        "orientation": "WEST",
+        "kind": "SMALL_ASTEROID"
+      },
+      {
+        "orientation": "NORTH",
+        "kind": "SMALL_ASTEROID"
+      }
+    ],
+    "image": "GT-cards_I_IT_0110.jpg"
+  },
+  {
+    "type": "Meteor_Swarm",
+    "level": 1,
+    "meteorites": [
+      {
+        "orientation": "SOUTH",
+        "kind": "BIG_ASTEROID"
+      },
+      {
+        "orientation": "SOUTH",
+        "kind": "SMALL_ASTEROID"
+      },
+      {
+        "orientation": "SOUTH",
+        "kind": "BIG_ASTEROID"
+      }
+    ],
+    "image": "GT-cards_I_IT_0111.jpg"
+  },
+  {
+    "type": "Planets",
+    "level": 1,
+    "days_lost": 3,
+    "stocks": [
+      {
+        "red_stocks": 1,
+        "yellow_stocks": 0,
+        "green_stocks": 1,
+        "blue_stocks": 3
+      },
+      {
+        "red_stocks": 1,
+        "yellow_stocks": 1,
+        "green_stocks": 0,
+        "blue_stocks": 1
+      },
+      {
+        "red_stocks": 1,
+        "yellow_stocks": 0,
+        "green_stocks": 0,
+        "blue_stocks": 3
+      },
+      {
+        "red_stocks": 1,
+        "yellow_stocks": 0,
+        "green_stocks": 1,
+        "blue_stocks": 0
+      }
+    ],
+    "image": "GT-cards_I_IT_0112.jpg"
+  },
+  {
+    "type": "Planets",
+    "level": 1,
+    "days_lost": 2,
+    "stocks": [
+      {
+        "red_stocks": 2,
+        "yellow_stocks": 0,
+        "green_stocks": 0,
+        "blue_stocks": 0
+      },
+      {
+        "red_stocks": 1,
+        "yellow_stocks": 0,
+        "green_stocks": 0,
+        "blue_stocks": 2
+      },
+      {
+        "red_stocks": 0,
+        "yellow_stocks": 1,
+        "green_stocks": 0,
+        "blue_stocks": 0
+      }
+    ],
+    "image": "GT-cards_I_IT_0113.jpg"
+  },
+  {
+    "type": "Planets",
+    "level": 1,
+    "days_lost": 3,
+    "stocks": [
+      {
+        "red_stocks": 0,
+        "yellow_stocks": 1,
+        "green_stocks": 1,
+        "blue_stocks": 2
+      },
+      {
+        "red_stocks": 0,
+        "yellow_stocks": 2,
+        "green_stocks": 0,
+        "blue_stocks": 0
+      }
+    ],
+    "image": "GT-cards_I_IT_0114.jpg"
+  },
+  {
+    "type": "Planets",
+    "level": 1,
+    "days_lost": 1,
+    "stocks": [
+      {
+        "red_stocks": 0,
+        "yellow_stocks": 0,
+        "green_stocks": 2,
+        "blue_stocks": 0
+      },
+      {
+        "red_stocks": 0,
+        "yellow_stocks": 1,
+        "green_stocks": 0,
+        "blue_stocks": 0
+      },
+      {
+        "red_stocks": 0,
+        "yellow_stocks": 0,
+        "green_stocks": 0,
+        "blue_stocks": 3
+      }
+    ],
+    "image": "GT-cards_I_IT_0115.jpg"
+  },
+  {
+    "type": "Combat_Zone",
+    "level": 1,
+    "days_loss": 3,
+    "crew_loss": 2,
+    "stocks_penalty": 0,
+    "hits": [
+      {
+        "orientation": "NORTH",
+        "kind": "LIGHT_SHOT"
+      },
+      {
+        "orientation": "NORTH",
+        "kind": "HEAVY_SHOT"
+      }
+    ],
+    "image": "GT-cards_I_IT_0116.jpg"
+  },
+  {
+    "type": "Abandoned_Ship",
+    "human_loss": 2,
+    "days_loss": 1,
+    "credits_gained": 3,
+    "level": 1,
+    "image": "GT-cards_I_IT_0117.jpg"
+  },
+  {
+    "type": "Abandoned_Ship",
+    "human_loss": 3,
+    "days_loss": 1,
+    "credits_gained": 4,
+    "level": 1,
+    "image": "GT-cards_I_IT_0118.jpg"
+  },
+  {
+    "type": "Abandoned_Station",
+    "days_loss": 1,
+    "requires_crew": 5,
+    "stocks": {
+      "red_stocks": 0,
+      "yellow_stocks": 1,
+      "green_stocks": 1,
+      "blue_stocks": 0
+    },
+    "level": 1,
+    "image": "GT-cards_I_IT_0119.jpg"
+  },
+  {
+    "type": "Abandoned_Station",
+    "days_loss": 1,
+    "requires_crew": 6,
+    "stocks": {
+      "red_stocks": 2,
+      "yellow_stocks": 0,
+      "green_stocks": 0,
+      "blue_stocks": 0
+    },
+    "level": 1,
+    "image": "GT-cards_I_IT_0120.jpg"
+  },
+  {
+    "type": "Slavers",
+    "level": 2,
+    "fire_power": 7,
+    "days_loss": 2,
+    "crew_loss": 4,
+    "credits_gained": 8,
+    "image": "GT-cards_II_IT_01.jpg"
+  },
+  {
+    "type": "Smugglers",
+    "stocks": {
+      "red_stocks": 1,
+      "yellow_stocks": 2,
+      "green_stocks": 0,
+      "blue_stocks": 0
+    },
+    "level": 2,
+    "fire_power": 8,
+    "days_loss": 1,
+    "penalty_stocks": 3,
+    "image": "GT-cards_II_IT_012.jpg"
+  },
+  {
+    "type": "Pirates",
+    "level": 2,
+    "fire_power": 6,
+    "days_loss": 2,
+    "credits_gained": 7,
+    "meteors": [
+      {
+        "orientation": "SOUTH",
+        "kind": "HEAVY_SHOT"
+      },
+      {
+        "orientation": "SOUTH",
+        "kind": "LIGHT_SHOT"
+      },
+      {
+        "orientation": "SOUTH",
+        "kind": "HEAVY_SHOT"
+      }
+    ],
+    "image": "GT-cards_II_IT_013.jpg"
+  },
+  {
+    "type": "Stardust",
+    "level": 2,
+    "image": "GT-cards_II_IT_014.jpg"
+  },
+  {
+    "type": "Epidemic",
+    "level": 2,
+    "image": "GT-cards_II_IT_015.jpg"
+  },
+  {
+    "type": "Open_Space",
+    "level": 2,
+    "image": "GT-cards_II_IT_016.jpg"
+  },
+  {
+    "type": "Open_Space",
+    "level": 2,
+    "image": "GT-cards_II_IT_017.jpg"
+  },
+  {
+    "type": "Open_Space",
+    "level": 2,
+    "image": "GT-cards_II_IT_018.jpg"
+  },
+  {
+    "type": "Meteor_Swarm",
+    "level": 2,
+    "meteorites": [
+      {
+        "orientation": "SOUTH",
+        "kind": "SMALL_ASTEROID"
+      },
+      {
+        "orientation": "SOUTH",
+        "kind": "SMALL_ASTEROID"
+      },
+      {
+        "orientation": "EAST",
+        "kind": "BIG_ASTEROID"
+      },
+      {
+        "orientation": "EAST",
+        "kind": "SMALL_ASTEROID"
+      },
+      {
+        "orientation": "EAST",
+        "kind": "SMALL_ASTEROID"
+      }
+    ],
+    "image": "GT-cards_II_IT_019.jpg"
+  },
+  {
+    "type": "Meteor_Swarm",
+    "level": 2,
+    "meteorites": [
+      {
+        "orientation": "SOUTH",
+        "kind": "BIG_ASTEROID"
+      },
+      {
+        "orientation": "SOUTH",
+        "kind": "BIG_ASTEROID"
+      },
+      {
+        "orientation": "NORTH",
+        "kind": "SMALL_ASTEROID"
+      },
+      {
+        "orientation": "NORTH",
+        "kind": "SMALL_ASTEROID"
+      }
+    ],
+    "image": "GT-cards_II_IT_0110.jpg"
+  },
+  {
+    "type": "Meteor_Swarm",
+    "level": 2,
+    "meteorites": [
+      {
+        "orientation": "SOUTH",
+        "kind": "SMALL_ASTEROID"
+      },
+      {
+        "orientation": "SOUTH",
+        "kind": "SMALL_ASTEROID"
+      },
+      {
+        "orientation": "WEST",
+        "kind": "BIG_ASTEROID"
+      },
+      {
+        "orientation": "WEST",
+        "kind": "SMALL_ASTEROID"
+      },
+      {
+        "orientation": "WEST",
+        "kind": "SMALL_ASTEROID"
+      }
+    ],
+    "image": "GT-cards_II_IT_0111.jpg"
+  },
+  {
+    "type": "Planets",
+    "level": 2,
+    "days_lost": 4,
+    "stocks": [
+      {
+        "red_stocks": 3,
+        "yellow_stocks": 1,
+        "green_stocks": 0,
+        "blue_stocks": 0
+      },
+      {
+        "red_stocks": 2,
+        "yellow_stocks": 0,
+        "green_stocks": 2,
+        "blue_stocks": 0
+      },
+      {
+        "red_stocks": 1,
+        "yellow_stocks": 0,
+        "green_stocks": 0,
+        "blue_stocks": 4
+      }
+    ],
+    "image": "GT-cards_II_IT_0112.jpg"
+  },
+  {
+    "type": "Planets",
+    "level": 2,
+    "days_lost": 3,
+    "stocks": [
+      {
+        "red_stocks": 2,
+        "yellow_stocks": 0,
+        "green_stocks": 0,
+        "blue_stocks": 0
+      },
+      {
+        "red_stocks": 0,
+        "yellow_stocks": 0,
+        "green_stocks": 4,
+        "blue_stocks": 0
+      }
+    ],
+    "image": "GT-cards_II_IT_0113.jpg"
+  },
+  {
+    "type": "Planets",
+    "level": 2,
+    "days_lost": 2,
+    "stocks": [
+      {
+        "red_stocks": 1,
+        "yellow_stocks": 1,
+        "green_stocks": 0,
+        "blue_stocks": 0
+      },
+      {
+        "red_stocks": 0,
+        "yellow_stocks": 1,
+        "green_stocks": 1,
+        "blue_stocks": 1
+      },
+      {
+        "red_stocks": 0,
+        "yellow_stocks": 0,
+        "green_stocks": 2,
+        "blue_stocks": 0
+      },
+      {
+        "red_stocks": 0,
+        "yellow_stocks": 1,
+        "green_stocks": 0,
+        "blue_stocks": 0
+      }
+    ],
+    "image": "GT-cards_II_IT_0114.jpg"
+  },
+  {
+    "type": "Planets",
+    "level": 2,
+    "days_lost": 3,
+    "stocks": [
+      {
+        "red_stocks": 0,
+        "yellow_stocks": 0,
+        "green_stocks": 4,
+        "blue_stocks": 0
+      },
+      {
+        "red_stocks": 0,
+        "yellow_stocks": 2,
+        "green_stocks": 0,
+        "blue_stocks": 0
+      },
+      {
+        "red_stocks": 0,
+        "yellow_stocks": 0,
+        "green_stocks": 0,
+        "blue_stocks": 4
+      }
+    ],
+    "image": "GT-cards_II_IT_0115.jpg"
+  },
+  {
+    "type": "Combat_Zone",
+    "level": 2,
+    "days_loss": 4,
+    "crew_loss": 0,
+    "stocks_penalty": 3,
+    "hits": [
+      {
+        "orientation": "SOUTH",
+        "kind": "LIGHT_SHOT"
+      },
+      {
+        "orientation": "EAST",
+        "kind": "LIGHT_SHOT"
+      },
+      {
+        "orientation": "WEST",
+        "kind": "LIGHT_SHOT"
+      },
+      {
+        "orientation": "NORTH",
+        "kind": "HEAVY_SHOT"
+      }
+    ],
+    "image": "GT-cards_II_IT_0116.jpg"
+  },
+  {
+    "type": "Abandoned_Ship",
+    "human_loss": 4,
+    "days_loss": 1,
+    "credits_gained": 6,
+    "level": 2,
+    "image": "GT-cards_II_IT_0117.jpg"
+  },
+  {
+    "type": "Abandoned_Ship",
+    "human_loss": 5,
+    "days_loss": 2,
+    "credits_gained": 8,
+    "level": 2,
+    "image": "GT-cards_II_IT_0118.jpg"
+  },
+  {
+    "type": "Abandoned_Station",
+    "days_loss": 1,
+    "requires_crew": 7,
+    "stocks": {
+      "red_stocks": 1,
+      "yellow_stocks": 1,
+      "green_stocks": 0,
+      "blue_stocks": 0
+    },
+    "level": 2,
+    "image": "GT-cards_II_IT_0119.jpg"
+  },
+  {
+    "type": "Abandoned_Station",
+    "days_loss": 2,
+    "requires_crew": 8,
+    "stocks": {
+      "red_stocks": 0,
+      "yellow_stocks": 2,
+      "green_stocks": 1,
+      "blue_stocks": 0
+    },
+    "image": "GT-cards_II_IT_0120.jpg"
+  }
+]
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="270.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.Controllers.PlanetsLandingController">
+   <children>
+      <Label fx:id="updateText" prefHeight="100.0" prefWidth="462.0" />
+      <Label fx:id="warningText" layoutY="100.0" prefHeight="25.0" prefWidth="462.0" />
+      <HBox fx:id="hBox" layoutY="135.0" prefHeight="42.0" prefWidth="462.0" />
+      <TextField fx:id="inputField" alignment="CENTER" layoutX="155.0" layoutY="196.0" prefHeight="26.0" prefWidth="150.0">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </TextField>
+      <HBox alignment="BOTTOM_LEFT" layoutX="105.0" layoutY="195.0" prefHeight="25.0" prefWidth="250.0">
+         <children>
+            <Button fx:id="yesButton" alignment="CENTER" mnemonicParsing="false" prefWidth="50.0" text="yes" textAlignment="CENTER" />
+            <Pane prefHeight="200.0" prefWidth="150.0">
+               <children>
+                  <Button fx:id="okButton" layoutX="59.0" layoutY="1.0" mnemonicParsing="false" text="OK" />
+               </children></Pane>
+            <Button fx:id="noButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefWidth="50.0" text="no" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

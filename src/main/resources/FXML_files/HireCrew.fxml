@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.Controllers.HireCrewController">
+
+   <center>
+      <StackPane>
+         <ImageView fx:id="backgroundImage" fitHeight="679.0" fitWidth="937.0" pickOnBounds="true" />
+
+         <GridPane fx:id="grid" alignment="CENTER" gridLinesVisible="true" hgap="2" vgap="2">
+            <padding>
+               <Insets bottom="10" left="10" right="10" top="10" />
+            </padding>
+         </GridPane>
+      </StackPane>
+   </center>
+
+   <right>
+      <AnchorPane prefHeight="233.0" prefWidth="404.0">
+         <children>
+            <Label fx:id="questionText" prefHeight="147.0" prefWidth="404.0" textOverrun="CENTER_ELLIPSIS" />
+            <HBox layoutY="158.0" prefHeight="76.0" prefWidth="404.0">
+               <children>
+                  <Pane prefHeight="56.0" prefWidth="70.0" />
+                  <Button fx:id="humansButton" alignment="CENTER" maxWidth="100.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="110.0" text="2 humans">
+                     <font>
+                        <Font size="14.0" />
+                     </font></Button>
+                  <Pane prefHeight="200.0" prefWidth="80.0" />
+                  <Button fx:id="alienButton" alignment="CENTER" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0">
+                     <font>
+                        <Font size="14.0" />
+                     </font></Button>
+                  <Pane prefHeight="56.0" prefWidth="70.0" />
+               </children></HBox>
+            <Label fx:id="updateText" layoutY="252.0" prefHeight="116.0" prefWidth="404.0" />
+            <Button fx:id="ok" layoutX="182.0" layoutY="410.0" mnemonicParsing="false" text="OK" textAlignment="CENTER" />
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>

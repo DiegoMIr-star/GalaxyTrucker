@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.StackPane?>
+
+<?import javafx.scene.image.Image?>
+<StackPane xmlns="http://javafx.com/javafx">
+    <ImageView fitWidth="300" preserveRatio="true">
+        <Image url="@/images/Galaxy_Trucker.jpeg"/>
+    </ImageView>
+</StackPane>

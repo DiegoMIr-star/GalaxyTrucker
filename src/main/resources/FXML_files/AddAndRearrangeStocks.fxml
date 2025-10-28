@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.Controllers.AddAndRearrangeStocksController">
+
+    <center>
+        <StackPane>
+            <ImageView fx:id="backgroundImage" fitHeight="679.0" fitWidth="937.0" pickOnBounds="true" />
+
+            <GridPane fx:id="grid" alignment="CENTER" gridLinesVisible="true" hgap="2" vgap="2">
+                <padding>
+                    <Insets bottom="10" left="10" right="10" top="10" />
+                </padding>
+            </GridPane>
+        </StackPane>
+    </center>
+
+    <right>
+        <AnchorPane prefHeight="679.0" prefWidth="200.0">
+            <children>
+            <Button fx:id="moveStocksButton" layoutX="28.0" layoutY="285.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="100.0" text="Move Stocks" />
+            <Button fx:id="addStocksButton" layoutX="158.0" layoutY="285.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="100.0" text="Add Stocks" />
+            <Button fx:id="discardStocksButton" layoutX="286.0" layoutY="285.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="100.0" text="Discard Stocks" />
+                <Label fx:id="text" accessibleRole="CHECK_MENU_ITEM" layoutY="48.0" prefHeight="202.0" prefWidth="403.0" />
+            <ScrollPane fx:id="stocksToAddScrollPane" layoutX="28.0" layoutY="368.0" prefHeight="40.0" prefWidth="358.0">
+            </ScrollPane>
+                <Button fx:id="escButton" layoutX="184.0" layoutY="473.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="47.0" text="ESC" />
+            </children>
+        </AnchorPane>
+    </right>
+</BorderPane>

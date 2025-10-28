@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+
+<BorderPane xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.Controllers.AskGiveUpCrewController">
+
+    <center>
+        <StackPane>
+            <ImageView fx:id="backgroundImage" fitHeight="679.0" fitWidth="937.0" pickOnBounds="true" />
+
+            <GridPane fx:id="grid" alignment="CENTER" gridLinesVisible="true" hgap="2" vgap="2">
+                <padding>
+                    <Insets bottom="10" left="10" right="10" top="10" />
+                </padding>
+            </GridPane>
+        </StackPane>
+    </center>
+
+    <right>
+        <AnchorPane prefHeight="233.0" prefWidth="404.0">
+            <children>
+                <Label fx:id="updateText" layoutY="224.0" prefHeight="116.0" prefWidth="404.0" />
+                <Label fx:id="warningText" layoutY="350.0" prefHeight="40.0" prefWidth="407.0" />
+                <TextField fx:id="inputField" layoutX="136.0" layoutY="414.0">
+                    <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </padding>
+                </TextField>
+            <Button fx:id="noButton" layoutX="281.0" layoutY="415.0" mnemonicParsing="false" prefWidth="50.0" text="no" />
+            <Button fx:id="yesButton" layoutX="85.0" layoutY="415.0" mnemonicParsing="false" prefWidth="50.0" text="yes" />
+                <Button fx:id="okButton" layoutX="184.0" layoutY="473.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="47.0" text="OK" />
+            </children>
+        </AnchorPane>
+    </right>
+</BorderPane>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="201.0" prefWidth="477.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.Controllers.AskDockingController">
+   <children>
+      <BorderPane prefHeight="200.0" prefWidth="400.0">
+         <top>
+            <Label fx:id="text" prefHeight="139.0" prefWidth="421.0" textAlignment="CENTER" BorderPane.alignment="CENTER">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+         </top>
+         <center>
+            <HBox maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="62.0" prefWidth="475.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Pane prefHeight="30.0" prefWidth="150.0" />
+                  <Button fx:id="yesButton" mnemonicParsing="false" prefHeight="26.0" prefWidth="40.0" text="yes" />
+                  <Pane prefHeight="47.0" prefWidth="100.0">
+                     <children>
+                        <Button fx:id="okButton" layoutX="36.0" layoutY="2.0" mnemonicParsing="false" text="ok" />
+                     </children></Pane>
+                  <Button fx:id="noButton" mnemonicParsing="false" prefWidth="40.0" text="no" />
+                  <Pane prefHeight="30.0" prefWidth="150.0" />
+               </children>
+            </HBox>
+         </center></BorderPane>
+   </children>
+</AnchorPane>

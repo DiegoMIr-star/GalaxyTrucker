@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<TabPane prefHeight="700.0" prefWidth="1300.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.Controllers.GameTableWithCardsController">
+<tabs>
+   <Tab fx:id="gameTableTab" text="Game Table">
+      <content>
+         <HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" />
+      </content>
+            <BorderPane prefHeight="200.0" prefWidth="200.0">
+               <center>
+                  <Pane fx:id="rootPane" prefHeight="671.0" prefWidth="1092.0">
+                  </Pane>
+               </center>
+               <right>
+               <VBox alignment="CENTER_RIGHT" prefHeight="671.0" prefWidth="263.0" BorderPane.alignment="CENTER">
+                  <children>
+                     <BorderPane prefHeight="200.0" prefWidth="200.0">
+                        <center>
+                           <Label fx:id="playersNickname" prefHeight="100.0" prefWidth="210.0" textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" BorderPane.alignment="CENTER">
+                              <font>
+                                 <Font size="20.0" />
+                              </font>
+                           </Label>
+                        </center>
+                     </BorderPane>
+                        <StackPane prefHeight="471.0" prefWidth="415.0">
+                           <children>
+                              <ImageView fx:id="cardBackground" fitHeight="471.0" fitWidth="308.0" pickOnBounds="true" preserveRatio="true" />
+                           <ImageView fx:id="cardImage" fitHeight="365.0" fitWidth="275.0" pickOnBounds="true" preserveRatio="true" />
+                           </children>
+                        </StackPane>
+                     <Pane prefHeight="290.0" prefWidth="308.0">
+                        <children>
+                           <Button fx:id="drawCardButton" alignment="TOP_CENTER" layoutX="39.0" layoutY="7.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="231.0" text="Draw Card!" textAlignment="CENTER">
+                              <font>
+                                 <Font size="19.0" />
+                              </font>
+                              </Button>
+                        </children></Pane>
+                     <HBox prefHeight="26.0" prefWidth="165.0">
+                        <children>
+                           <Pane prefHeight="200.0" prefWidth="200.0" />
+                           <Pane prefHeight="200.0" prefWidth="200.0" />
+                        </children>
+                     </HBox>
+                  </children>
+               </VBox>
+               </right>
+            </BorderPane>
+   </Tab>
+   <Tab fx:id="shipTab" text="Ship">
+      <content>
+         <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <StackPane prefHeight="679.0" prefWidth="937.0">
+                     <children>
+                        <ImageView fx:id="shipImage" fitHeight="679.0" fitWidth="937.0" pickOnBounds="true" preserveRatio="true" />
+                        <BorderPane prefHeight="200.0" prefWidth="200.0">
+                           <center>
+                              <GridPane fx:id="shipGrid" gridLinesVisible="true" BorderPane.alignment="CENTER">
+                        </GridPane>
+                           </center>
+                           <top>
+                              <Pane prefHeight="45.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+                           </top>
+                           <left>
+                              <Pane prefHeight="200.0" prefWidth="45.0" BorderPane.alignment="CENTER" />
+                           </left>
+                        </BorderPane>
+                     </children></StackPane>
+               </children></AnchorPane>
+      </content>
+   </Tab>
+</tabs>
+</TabPane>

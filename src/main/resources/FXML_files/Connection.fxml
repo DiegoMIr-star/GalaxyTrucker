@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="View.Controllers.ConnectionController">
+
+    <center>
+        <VBox alignment="CENTER" spacing="15">
+            <padding>
+                <Insets top="20" right="20" bottom="20" left="20"/>
+            </padding>
+            <Label text="Choose your kind of connection" style="-fx-font-size: 18px;"/>
+
+            <HBox spacing="10" alignment="CENTER">
+                <RadioButton fx:id="socketRadio" text="Socket"/>
+                <RadioButton fx:id="rmiRadio" text="RMI"/>
+            </HBox>
+
+            <Label text="IP server address"/>
+            <TextField fx:id="ipField" promptText="es. 127.0.0.1"/>
+
+            <Label text="Port"/>
+            <TextField fx:id="portField" promptText="es. 12345"/>
+
+            <Button text="Connect" onAction="#onConnect" style="-fx-font-weight: bold;"/>
+        </VBox>
+    </center>
+</BorderPane>

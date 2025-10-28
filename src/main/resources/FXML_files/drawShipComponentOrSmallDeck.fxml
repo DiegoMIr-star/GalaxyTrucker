@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane prefHeight="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.Controllers.DrawingController">
+    <center>
+        <StackPane>
+            <ImageView fx:id="backgroundImage" />
+            <GridPane fx:id="grid" alignment="CENTER" gridLinesVisible="true" hgap="2" vgap="2" />
+        </StackPane>
+    </center>
+
+    <right>
+        <VBox alignment="TOP_CENTER" maxHeight="1.7976931348623157E308" prefHeight="500.0" prefWidth="150.0" spacing="10">
+            <padding>
+                <Insets bottom="10" left="10" right="10" top="10" />
+            </padding>
+            <Button fx:id="drawButton" text="Draw Component" />
+            <Button fx:id="rotateLeftButton" text="⟲ Counter Clock" />
+            <Button fx:id="rotateRightButton" text="⟳ Clock" />
+            <Button fx:id="placeOnTheBoard" text="Place on board" />
+            <Button fx:id="returnButton" text="Return Component" />
+         <HBox alignment="TOP_CENTER">
+            <children>
+               <Region layoutX="33.0" layoutY="10.0" HBox.hgrow="ALWAYS" />
+               <Button fx:id="drawSmallDeck1" text="1" />
+               <Region HBox.hgrow="ALWAYS" />
+               <Button fx:id="drawSmallDeck2" text="2" />
+               <Region layoutX="33.0" layoutY="10.0" HBox.hgrow="ALWAYS" />
+               <Button fx:id="drawSmallDeck3" text="3" />
+               <Region layoutX="33.0" layoutY="10.0" HBox.hgrow="ALWAYS" />
+            </children>
+         </HBox>
+         <Button fx:id="turnHourglass" text="Turn Hourglass! ⧗ " />
+            <Label style="-fx-font-weight: bold;" text="Revealed Components:" />
+            <ScrollPane fx:id="scrollPane" fitToWidth="true" maxHeight="605.0" prefHeight="605.0" prefWidth="130.0">
+                <VBox fx:id="reservedBox" alignment="TOP_CENTER" spacing="5.0" />
+            </ScrollPane>
+        </VBox>
+    </right>
+</BorderPane>

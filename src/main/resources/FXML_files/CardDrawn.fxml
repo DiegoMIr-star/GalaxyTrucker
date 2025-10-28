@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+           fx:controller="View.Controllers.CardDrownController">
+    <ImageView fx:id="imageView" fitWidth="200" preserveRatio="true"/>
+</StackPane>

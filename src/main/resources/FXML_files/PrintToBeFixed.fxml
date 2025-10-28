@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.geometry.Insets?>
+<GridPane fx:id="grid"
+          xmlns="http://javafx.com/javafx"
+          xmlns:fx="http://javafx.com/fxml"
+          fx:controller="View.Controllers.PrintToBeFixedShipController"
+          hgap="5" vgap="5">
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+</GridPane>

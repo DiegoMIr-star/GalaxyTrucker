@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.geometry.Insets?>
+
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="View.Controllers.FirstPlayerController"
+      spacing="15" alignment="CENTER">
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+
+    <Label text="You are the first player!" style="-fx-font-size: 18px;"/>
+    <Label text="How many partners do you want?" style="-fx-font-size: 18px;"/>
+
+    <VBox fx:id="radioBox" spacing="10" alignment="CENTER">
+        <RadioButton text="2 players" fx:id="radio2"/>
+        <RadioButton text="3 players" fx:id="radio3"/>
+        <RadioButton text="4 players" fx:id="radio4"/>
+    </VBox>
+
+    <Button text="Confirm" onAction="#onConfirm" style="-fx-font-weight: bold;"/>
+</VBox>

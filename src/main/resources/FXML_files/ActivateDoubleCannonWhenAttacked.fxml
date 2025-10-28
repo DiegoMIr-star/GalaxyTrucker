@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="309.0" prefWidth="573.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.Controllers.AskToActivateDoubleCannonController">
+     <Label fx:id="message" layoutX="31.0" layoutY="38.0" prefHeight="146.0" prefWidth="511.0" wrapText="true" />
+     <HBox alignment="CENTER" layoutX="9.0" layoutY="240.0" prefHeight="20.0" prefWidth="564.0" spacing="20">
+         <Button fx:id="yes" prefWidth="50.0" text="Yes" />
+      <Pane prefHeight="26.0" prefWidth="107.0">
+         <children>
+            <Button fx:id="ok" alignment="CENTER" layoutX="28.0" mnemonicParsing="false" prefWidth="50.0" text="Ok" textAlignment="CENTER" />
+         </children></Pane>
+         <Button fx:id="no" prefWidth="50.0" text="No" />
+     </HBox>
+</AnchorPane>
